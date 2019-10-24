@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/custom_style.css">
 		
 		<title>Waiting Room</title></head>
-
+<!--
  <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
     <style>
@@ -17,12 +17,30 @@
         font-size: 48px;
       }
     </style>
+    -->
+<!--
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+<style>
+body{
+font-family: 'Source Serif Pro', serif;}
+</style>
+-->
+
+
+<style>
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+
 
 
 	<body >
 		<header>
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Waiting Room</a>
+  <a class="navbar-brand" href="#">WAITING ROOM</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -30,35 +48,49 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+	      <a class="nav-link" href="#"><span class="link-color">HOME</span><span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#shows">Shows</a>
+	      <a class="nav-link" href="#about"><span class="link-color">ABOUT</span></a>
       </li>
 	<li class="nav-item">
-	  <a class="nav-link" href="#main-pic">Main Picture</a>
+		<a class="nav-link" href="#shows"><span class="link-color">SHOWS</span></a>
 	</li>
+<!--
       <li class="nav-item">
-        <a class="nav-link" href="#press">Press and Testamonials</a>
+        <a class="nav-link" href="#listen">LISTEN</a>
+      </li>
+-->     
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+		<span class="link-color">LISTEN</span>
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Great Song 1</a>
+          <a class="dropdown-item" href="#">Great Song 2</a>
+         <!-- <div class="dropdown-divider"></div>
+	 <a class="dropdown-item" href="#">Something else here</a> -->
+        </div>
+      </li>
+
+      <li class="nav-item">
+	      <a class="nav-link" href="#merch"><span class="link-color">MERCH</span></a>
       </li>
       
       <li class="nav-item">
-        <a class="nav-link" href="#vids">Videos</a>
+	      <a class="nav-link" href="#press"><span class="link-color">PRESS</span></a>
       </li>
+
+      
       
       <li class="nav-item">
-        <a class="nav-link" href="#listen">Listen</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#merch">Merchendice</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#contacts">Contact</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
+	      <a class="nav-link" href="#test"><span class="link-color">AUDIENCE TESTIMONIALS</span></a>
+      </li> 
       
+      <li class="nav-item">
+	      <a class="nav-link" href="#contacts"><span class="link-color">CONTACT</span></a>
+      </li>
+    </ul>      
       
       <!-- 
       <li class="nav-item dropdown">
@@ -74,7 +106,7 @@
       </li>
     </ul>
       -->
-  </div>
+  
   <div class="nav navbar navbar-nav ml-auto">
      <form class="form-inline my-2 my-lg-0" >
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -88,8 +120,7 @@
 
 			
 			
-			<div class="main-title"><h1 >Waiting Room</h1></div>
-
+			<div class="main-title">W A I T I N G&nbsp;&nbsp;R O O M</div>
 
 <section id="carousel"  >			
 <center class="carousel-container">
@@ -142,60 +173,73 @@
 </center>	
 </section>	
 
-<section id="main-pic" name="main-pic">
-<div ><img src="images/main/190907C-JESSICABATES-THEWAITINGROOM-8101.jpg" class="d-block w-75 mainImage"  /></div>			
+
+<section id="main-pic" name="main-pic" >
+
+	<div class="floating-text">
+		&#34Sometimes when the<br/>
+		world is turning upside<br/>
+		down, you need to meet<br/>
+		it there.&#34<br/>
+	</div>
+<div ><img src="images/main/190907C-JESSICABATES-THEWAITINGROOM-8101.jpg" class="d-block w-75 mainImage"  />
+</div>			
 </section>
 
 
+<section id="press" name="press" class="section-style typewriter-font">
+	<h1>PRESS</h1>
+	COMING SOON!
+</section>
 
-<section id="press" name="press" class="section-style">
-	<h1>Press and Testamonials</h1>
+<section id="test" name="test" class="section-style typewriter-font">
+	<h1>AUDIENCE TESTIMONIALS</h1>
 	<p>
-Jessica was absolutely brilliant, and her performance exceeded superlatives - she<br />
-managed to balance an almost impossible task. 
+&#34Jessica was absolutely brilliant, and her performance exceeded superlatives - she<br />
+managed to balance an almost impossible task.&#34
 	</p>
 	<p>
-I felt so fed by her courage and wit and stamina.  What a writer and actor she is. To be<br/>
-able to use both wit and intensity together. She brought me in so close to her.  It is<br/>
+&#34I felt so fed by her courage and wit and stamina. What a writer and actor she is. To be<br/>
+able to use both wit and intensity together. She brought me in so close to her. It is<br/>
 not an experience I have a lot in the theater. She shared her story without self-pity or<br/>
-blame.  I couldn't do that.  I wish it was more than one night. I would have called all my<br/>
-artist friends and told them to go.
+blame. I couldn't do that. I wish it was more than one night. I would have called all my<br/>
+artist friends and told them to go.&#34
 	</p>
 	<p>
-I left the theater feeling exhilarated, emotionally raw, and inspired on so many levels.<br />
-I feel that you gave me an incredible gift and I am truly grateful.
+&#34I left the theater feeling exhilarated, emotionally raw, and inspired on so many levels.<br />
+I feel that you gave me an incredible gift and I am truly grateful.&#34
 	</p>
 	<p>
-What an amazing evening.  Jessica SHINES on all counts! I have thought of SO many people<br/>
+&#34What an amazing evening. Jessica SHINES on all counts! I have thought of SO many people<br/>
 I would like to see this - because I know they would love it - and learn from it by sharing<br/>
 in wounding and healing and the amazing growth/joy that can come out of disappointment, fear,<br/>
-suffering. You could tell the audience was right there every second!
+suffering. You could tell the audience was right there every second!&#34
 	</p>
 	<p>
-Thank you for this gift!  Your performance was outstanding, you laid out your feelings and<br/>
+&#34Thank you for this gift! Your performance was outstanding, you laid out your feelings and<br/>
 emotions for us to touch. You had me in the palm of your hand. Loved it, loved it, loved it.<br/>
-  Made me cry - and laugh, too!
+Made me cry - and laugh, too!&#34
 	</p>
 
 </section>
 
 <section id="vids" name="vids" class="section-style">
-	<h1>Videos</h1>
+	<h1>VIDEOS</h1>
 	We are working on getting you some cool videos to watch!  Check back soon!
 </section>
 
 
 <section id="listen" name="listen" class="section-style">
-	<h1>Listen</h1>
+	<h1>LISTEN</h1>
 	We are working on getting you some great audio files!  Coming soon!
 
 
 </section>
 
 <section id="shows" name="shows" class="section-style">
-	<h1>Shows:</h1>
+	<h1>SHOWS</h1>
 	<p >
-		List of shows coming soon!  Check back often!
+		TOUR DATES COMING SOON! 
 	</p>
 
 </section>
@@ -203,22 +247,11 @@ emotions for us to touch. You had me in the palm of your hand. Loved it, loved i
 		
 		
 <section id="merch" name="merch" class="section-style">
-	<h1>Merchandice</h1>
-	<center>
-	<table>
-		<tr><th>Item</th><th>Price</th></tr>
-		<tr><td>Coffee Cups</td><td class="right-align">$6.99</td></tr>
-		<tr><td>T-shirts</td>   <td class="right-align">$22.99</td></tr>
-		<tr><td>Recordings</td> <td class="right-align" >$25.00</td></tr>
 
-		<tr><td>Buttons</td> <td class="right-align" >$1.50</td></tr>
-	</table>
+	<h1>MERCH</h1>
 
-	<button class="button" id="merch_button"  onClick="revealdiv()"   >Purchase Merchendice</button>
-	<div id="merch_message" style="visibility: hidden" >
-		To purchase merchandice please call 555.555.5555<br />
-		<button class="button" onclick="hidediv()">Hide Text</button>
-	</div>
+	SOUNDTRACTS COMING SOON!
+
 </section>
 <script>
 	let revealdiv  = ()=>{
@@ -234,65 +267,66 @@ emotions for us to touch. You had me in the palm of your hand. Loved it, loved i
 </script>
 
 <section id="contacts" name="contact" class="section-style">
-	<h1>Contact:</h1>
+	<h1>CONTACT</h1>
 
 <center>
 <p>
-JessicaBates1973@gmail.com<br />
-(646) 244-8196
+	waitingroomthemusical@gmail.com
+
 </p></center>
 </section>
 		
 <section id="about" name="about" class="section-style" style="text-align: left">
-	<h1>About</h1>
+	<h1>ABOUT</h1>
 <div class="container">
 <p>
 <b>WAITING ROOM</b><br/> 
-Twenty years into her career as an actress, Jessica is questioning how she can keep<br />
-going. She hits a major twist in the road which ultimately deepens her faith in her<br />
-chosen path.  In this autobiographical musical journey through the wilds of an actress’s<br />
-life on and off the stage, we are led though the triumphs and tragedies that can shape<br />
-our lives, and the courage we find to keep showing up. When we face our fears with humor<br />
-and with courage, we reveal hidden strength that celebrates the sublime imperfect beauty<br />
-of our human condition. Written and performed by Jessica Bates Waiting Room had its world<br />
-premiere at the Gloucester Stage on September 8, 2019.
+Twenty years into her career as an actress, Jessica is questioning how she can<br/>
+keep going. She hits a major twist in the road which ultimately deepens her faith<br/>
+in her chosen path.  In this autobiographical musical journey through the wilds of<br/>
+an actress's life on and off the stage, we are led though the triumphs and<br/>
+tragedies that can shape our lives, and the courage we find to keep showing up.<br/>
+When we face our fears with humor and with courage, we reveal hidden strength<br/>
+that celebrates the sublime imperfect beauty of our human condition. Written and<br/>
+performed by Jessica Bates Waiting Room had its world premiere at the<br/>
+Gloucester Stage on September 8, 2019.
 </p>
-
 <p>
 <b>Jessica Bates</b> is an actress, singer-songwriter, choreographer and teacher. She<br />
-trained at the Royal Central School of Speech and Drama in London, and her twenty-year<br />
-career has taken her all over the country. Theatre abroad includes; The River Merchant’s<br />
-Wife (Edinburgh Festival), Miss Julie (London Fringe Festival), The Tempest, Midsummer<br />
-Night’s Dream (Cambridge Shakespeare Festival) Mind the Gap (UK Tour). New York Theatre<br />
-includes; Hamlet, Twelfth Night (National Shakespeare Company), As You Like It, American<br />
-Dreams Lost and Found (The Acting Company),American Dreams Lost and Found (Off-Broadway<br />
-Lucille Lortel) The Magnificent Cuckhold (East River Commedia Theatre),  Medea (Riverside<br />
-Theatre) Love in the time of Unemployment (Solo show; Gershwin Hotel), 365 Days 365 Plays<br />
-(Women’s Project). Regional theatre includes; Henceforward, Tonight at 8:30, Travesties, The<br />
-Seagull, The Mask of Moriarty (Pittsburgh Irish and Classical Theatre), The Voysey Inheritance<br />
-(Milwaukee Rep), Noises Off (Idaho Shakespeare Festival), Cyrano De Bergerac<br />
-(Hangar Theatre), After the Revolution, The Lyons (Aurora Theatre), In a Word, 123, Washed<br />
-Up On The Potomac (SF Playhouse), Waiting Room, The Rainmaker (Gloucester Stage),Or (Capital<br />
-Stage), Swimmers (Marin Theatre Company.)  Film includes; The Far Near Shore, Warsaw, The<br />
-Mystery Plays. Television includes; May Peace Prevail on Earth, Love Kills, Law and Order.
+trained at the Royal Central School of Speech and Drama in London, and her<br/>
+twenty-year career has taken her all over the country. Theatre abroad includes;<br/>
+The River Merchant's Wife (Edinburgh Festival), Miss Julie (London Fringe,<br/>
+Festival), The Tempest, Midsummer Night’s Dream (Cambridge Shakespeare<br/>
+Festival) Mind the Gap (UK Tour). New York Theatre includes; Hamlet, Twelfth<br/>
+Night (National Shakespeare Company), As You Like It, American Dreams Lost<br/>
+and Found (The Acting Company), American Dreams Lost and Found<br/>
+(Off-Broadway Lucille Lortel) The Magnificent Cuckhold (East River Commedia<br/>
+Theatre), Medea (Riverside Theatre) Love in the time of Unemployment (Solo<br/>
+show; Gershwin Hotel), 365 Days 365 Plays (Women's Project). Regional<br/>
+theatre includes; Henceforward, Tonight at 8:30, Travesties, The Seagull,<br/>
+The Mask of Moriarty (Pittsburgh Irish and Classical Theatre), The Voysey<br/>
+Inheritance (Milwaukee Rep), Noises Off (Idaho Shakespeare Festival), Cyrano<br/>
+De Bergerac (Hangar Theatre), After the Revolution, The Lyons (Aurora Theatre),<br/>
+In a Word, 123, Washed Up On The Potomac (SF Playhouse), Waiting Room, The<br/>
+Rainmaker (Gloucester Stage),Or (Capital Stage), Swimmers (Marin Theatre<br/>
+Company.) Film includes; The Far Near Shore, Warsaw, The Mystery Plays.<br/>
+Television includes; May Peace Prevail on Earth, Love Kills, Law and Order.
 </p>
 </div>
 </section>
-
-
-
 		
 		</main>
 		<footer class="bg-dark fixed-bottom">
-			<a  href="#">        Home              </a>| 
-			<a  href="#main-pic">Main Picture      </a>|
-			<a  href="#press">   Press             </a>|
-			<a  href="#vids">    Videos            </a>|
-			<a  href="#listen">  Listen            </a>|
-			<a  href="#merch">   Merchendice       </a>|
-			<a  href="#shows">   Shows             </a>|
-			<a  href="#contacts">Contants          </a>|
-			<a  href="#about">   About             </a>
+			<a  href="#">        <span class="link-color">  HOME    </span></a>| 
+			<a  href="#about">   <span class="link-color">  ABOUT   </span></a>|
+			<a  href="#shows">   <span class="link-color">  SHOWS   </span></a>|
+			<a  href="#listen">  <span class="link-color">  LISTEN  </span></a>|
+			<a  href="#merch">   <span class="link-color">  MERCH   </span></a>|
+			<a  href="#press">   <span class="link-color">  PRESS   </span></a>|
+	
+			<a  href="#test">   <span class="link-color">   AUDIENCE TESTIMONIALS   </span></a>|
+	
+			<a  href="#contacts"><span class="link-color">  CONTACTS</span></a>|
 		
 		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
