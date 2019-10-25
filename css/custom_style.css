@@ -34,8 +34,8 @@ h1{
 .floating-text{
 	
 	position: absolute;
-	top: 400px;
-	left:400px;
+	top: 380px;
+	left:450px;
 	z-index: 90;
 	font-size: 25px;
 	color: white;
