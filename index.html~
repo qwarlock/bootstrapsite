@@ -12,21 +12,6 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-<script>
-//$(document).on('click', '.nav-link.active', function() { 
-//  var href = $(this).attr('href').substring(1); 
-  //alert(href); 
-//  $(this).removeClass('active'); 
- // $('.tab-pane[id="' + href + '"]').removeClass('active'); 
-  
-//}); 
-
-
-
-</script>
-	
-	
-	
 	<!--
  <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Tangerine">
@@ -46,10 +31,9 @@ font-family: 'Source Serif Pro', serif;}
 </style>
 -->
 
-
 <style>
 body{
-font-family: Arial, Helvetica, sans-serif;
+	 font-family: Arial, Helvetica, sans-serif;
 }
 </style>
 
@@ -76,14 +60,13 @@ font-family: Arial, Helvetica, sans-serif;
       <li class="nav-item">
 	      <a class="nav-link" data-toggle="tab"  href="#carousel"><span class="link-color">CAROUSEL</span></a>
       </li>
-	
-	<!--
+<!--	
       <li class="nav-item">
         <a class="nav-link" href="#listen">LISTEN</a>
       </li>
--->     
-     <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="tab"  href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+-->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle"   href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 		<span class="link-color">LISTEN</span>
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -169,7 +152,8 @@ Gloucester Stage on September 8, 2019.
 
 <div id="carousel" class="container tab-pane fade">
   <section name="carousel" class=" section-style"  >			
-    <center class="carousel-container">
+       <h1>Carousel</h1>
+       <center class="carousel-container">
        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
          <ol class="carousel-indicators">
     	  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
