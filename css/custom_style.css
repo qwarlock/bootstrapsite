@@ -6,10 +6,14 @@ header{
 	color: orange;
 }
 
+li .active {
+  background-color: green !important;
+  color: blue;
+}
 
-body{
-font-family: Arial, Helvetica, sans-serif;
-background-color: #002060;
+main{
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #002060;
 }
 
 h1{
@@ -32,7 +36,6 @@ h1{
 }
 
 .floating-text{
-	
 	position: absolute;
 	top: 380px;
 	left:450px;
@@ -41,25 +44,20 @@ h1{
 	color: white;
 }
 
-
 .image-blurred-edge {
-box-shadow: 25px 25px 50px 0 black inset, -25px -25px 50px 0 black inset; 
-#width: 300px;
-#height: 300px;
-
+	box-shadow: 25px 25px 50px 0 black inset, -25px -25px 50px 0 black inset; 
+	#width: 300px;
+	#height: 300px;
 }
-
-
 
 main{
 	padding-top: 250px;
 	padding-bottom: 800px;
 }
 
-
 .main-title{
   color: white;
-  font-size: 120px;
+  font-size: 100px;
   margin: auto;
   width: 100%;
   top: 75px;
@@ -68,23 +66,42 @@ main{
   padding-bottom: 150px;
   z-index: 999;
 }
+.carousel-inner img {
+  margin: auto;
+}
 
-.crousel-container{
-	width: 75%;
+.carousel-container{
+	width: 100%;
 	text-align:center;
 	font-size: 60px;
 	padding-bottom: 100px;
 }
 
 .section-style{
-	padding-top: 150px;
+	#padding-top: 50px;
 	color: white;
 	text-align: center;
 	font-size: 30px;
 }
 
+h1 {
+	#padding-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 40px;
+}
+
 .typewriter-font{
 	font-family: American Typewriter, serif;
+}
+
+.testimonial{
+	border-style: solid;
+	border-color: orange;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 td{
@@ -96,7 +113,6 @@ td{
 	text-align: right;
 	padding-right: 5px;
 }
-
 
 th{
 	padding-left: 20px;
